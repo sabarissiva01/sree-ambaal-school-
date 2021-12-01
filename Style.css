@@ -1,0 +1,73 @@
+body{
+      font: 400 15px Lato, sans-serif;
+   line-height: 1.8;
+  background-color:#818181;
+}
+.underline{
+color:inverse;  text-decoration: underline; font-size: 25px;
+}
+h6{
+  font-size: 19px;
+  line-height: 1.375em;
+  color: blue;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+p1{
+  font-size: 20px;
+  font-family: Helvetica;
+  padding:100px;
+}
+p2,p3,p4,p5,p6,p7{
+  font-size: 18px;
+  font-family: times;
+  color: blue;
+}
+li,p8,p9,p10,p11,p12{
+  font-size: 19px;
+  font-family: arial;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  .affix {
+      top: 10;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+    }
+
+    .affix + .container-fluid {
+      padding-top: 70px;
+    }
+    .fa {
+      padding: 15px;
+      font-size: 15px;
+      width: 20px;
+      text-align: left;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 75%;
+    }
+    .fa-facebook {
+  background: #3B5998;
+  color:white;
+}
+    .fa-twitter {
+  background: #55ACEE;
+  color:white;
+}
+  .fa-youtube {
+  background: coral;
+  color:white;
+}
+  .fa-instagram {
+  background: #125688;
+  color:white;
+}
+@media screen and (max-width: 480px) {
+   .logo {
+     font-size: 150px;
+   }
